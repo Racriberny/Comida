@@ -4,196 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/btMasTernera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="652dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginBottom="31dp"
-        android:text="Mas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btMenosPavo"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="295dp">
 
     <TextView
-        android:id="@+id/txTernera"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="644dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="23dp"
-        android:text="0"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btMasPavo"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btMenosPavo"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btMenoTernera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="652dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="31dp"
-        android:text="Menos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/txTernera"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="548dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginBottom="16dp"
-        android:text="Ternera"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/txTernera"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btMasSalmon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="484dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginBottom="16dp"
-        android:text="Mas"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btMenosPavo"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txSalmon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="476dp"
-        android:layout_marginEnd="55dp"
-        android:text="0"
-        android:textSize="48sp"
-        app:layout_constraintEnd_toStartOf="@+id/btMasPavo"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btMenosPavo"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btMenoSalmon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="484dp"
-        android:layout_marginEnd="84dp"
-        android:text="Menos"
-        app:layout_constraintEnd_toStartOf="@+id/txSalmon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="384dp"
-        android:layout_marginEnd="137dp"
         android:layout_marginBottom="12dp"
-        android:text="Salmon"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/txSalmon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btMenoPollo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginBottom="24dp"
-        android:text="Menos"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toStartOf="@+id/txPollo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txPollo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="55dp"
-        android:text="0"
+        android:text="Pavo"
         android:textSize="48sp"
-        app:layout_constraintEnd_toStartOf="@+id/btMasPavo"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btMenosPavo"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btMasPollo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginBottom="24dp"
-        android:text="Mas"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btMenosPavo"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="208dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginBottom="16dp"
-        android:text="Pollo"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/txPollo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/txPavo"
+        tools:layout_editor_absoluteX="152dp" />
 
     <Button
         android:id="@+id/btMasPavo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="146dp"
-        android:layout_marginTop="119dp"
+        android:layout_marginTop="468dp"
         android:layout_marginEnd="49dp"
-        android:layout_marginBottom="145dp"
         android:text="Mas"
-        app:layout_constraintBottom_toTopOf="@+id/btMasPollo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/btMenosPavo"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -201,11 +35,9 @@
         android:id="@+id/btMenosPavo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="119dp"
-        android:layout_marginBottom="145dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="468dp"
         android:text="Menos"
-        app:layout_constraintBottom_toTopOf="@+id/btMenoPollo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -214,56 +46,61 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="460dp"
         android:layout_marginEnd="55dp"
-        android:layout_marginBottom="34dp"
         android:text="0"
         android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toStartOf="@+id/btMasPavo"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btMenosPavo"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txPollo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="13dp"
+        android:text="0"
+        android:textSize="34sp"
+        app:layout_constraintStart_toEndOf="@+id/btMenosPollo"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btMenosPollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="56dp"
+        android:text="Menos"
+        app:layout_constraintEnd_toStartOf="@+id/txPollo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginBottom="14dp"
-        android:text="Pavo"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toTopOf="@+id/txPavo"
+        android:layout_marginEnd="151dp"
+        android:text="Pollo"
+        android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btLeer"
-        android:layout_width="74dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="34dp"
-        android:text="LeerDatos"
-        app:layout_constraintBottom_toTopOf="@+id/btMasPavo"
+        android:id="@+id/btMasPollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="49dp"
+        android:text="Mas"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/txPollo"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btGuardar"
-        android:layout_width="111dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="26dp"
-        android:text="Guardar Datos"
-        app:layout_constraintBottom_toTopOf="@+id/btMenosPavo"
-        app:layout_constraintEnd_toStartOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
